@@ -11,7 +11,7 @@ interface ClaseGenericaRepositorio {
 
 class ConexionGenericaRepositorio(private val claseGenericaDao: ClaseGenericaDao<ClaseGenerica>
 ) : ClaseGenericaRepositorio {
-   override suspend fun insertar(producto: ClaseGenerica) = claseGenericaDao.insertar(producto)
-   override suspend fun actualizar(producto: ClaseGenerica) = claseGenericaDao.actualizar(producto)
-   override suspend fun eliminar(producto: ClaseGenerica) = claseGenericaDao.eliminar(producto)
+   override suspend fun insertar(entidad: ClaseGenerica) = claseGenericaDao.insertar(entidad)
+   override suspend fun actualizar(entidad: ClaseGenerica) = claseGenericaDao.actualizar(entidad)
+   override suspend fun eliminar(entidad: ClaseGenerica) = claseGenericaDao.eliminar(entidad)
 }
