@@ -3,6 +3,7 @@ plugins {
    alias(libs.plugins.kotlin.android)
    alias(libs.plugins.compose.compiler)
    alias(libs.plugins.ksp)
+   alias(libs.plugins.jetbrains.kotlin.plugin.serialization)
 }
 
 android {
@@ -65,6 +66,12 @@ dependencies {
    implementation(libs.androidx.room.runtime)
    ksp(libs.androidx.room.compiler)
    implementation(libs.androidx.room.ktx)
+   implementation(libs.androidx.navigation)
+   implementation(libs.androidx.viewmodel)
+   implementation(libs.squareup.retrofit2)
+   implementation(libs.jetbrains.kotlinx.serialization)
+   implementation(libs.jakewharton.retrofit)
+   implementation(libs.squareup.okhttp3)
    testImplementation(libs.junit)
    androidTestImplementation(libs.androidx.junit)
    androidTestImplementation(libs.androidx.espresso.core)

@@ -5,6 +5,6 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "ClaseGenerica")
 data class ClaseGenerica(
-   @PrimaryKey(autoGenerate = true)
-   val key: Int
-)
+        @PrimaryKey(autoGenerate = true)
+        val id : Int
+                        )
