@@ -1,6 +1,6 @@
-package com.example.plantillalocal.conexion
+package com.example.plantillalocalServidor.conexion
 
-import com.example.plantillalocal.modelo.ClaseGenericaServidor
+import com.example.plantillalocalServidor.modelo.ClaseGenericaServidor
 import retrofit2.http.Body
 import retrofit2.http.DELETE
 import retrofit2.http.GET

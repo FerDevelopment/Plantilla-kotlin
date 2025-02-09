@@ -1,15 +1,15 @@
-package com.example.plantillalocal.ui
+package com.example.plantillalocalServidor.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.APPLICATION_KEY
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.example.plantillalocal.Aplicacion
-import com.example.plantillalocal.datos.RepositorioInterno
-import com.example.plantillalocal.datos.ServidorRepositorio
-import com.example.plantillalocal.modelo.ClaseGenerica
-import com.example.plantillalocal.modelo.ClaseGenericaServidor
+import com.example.plantillalocalServidor.Aplicacion
+import com.example.plantillalocalServidor.datos.RepositorioInterno
+import com.example.plantillalocalServidor.datos.ServidorRepositorio
+import com.example.plantillalocalServidor.modelo.ClaseGenerica
+import com.example.plantillalocalServidor.modelo.ClaseGenericaServidor
 
 sealed interface ServidorUIState {
    data class ObtenerExito(val entidad: List<ClaseGenericaServidor>) : ServidorUIState
@@ -34,6 +34,9 @@ sealed interface InternoUIState {
 class GenericoViewModel(private val servidorRepositorio: ServidorRepositorio,
                         private val internoRepositorio: RepositorioInterno
 ) : ViewModel() {
+
+
+
    companion object {
       val Factory: ViewModelProvider.Factory = viewModelFactory {
          initializer {

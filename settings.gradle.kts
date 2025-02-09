@@ -19,6 +19,6 @@ dependencyResolutionManagement {
    }
 }
 
-rootProject.name = "PlantillaLocal"
+rootProject.name = "PlantillaLocalServidor"
 include(":app")
  

@@ -1,4 +1,4 @@
-package com.example.plantillalocal.ui.theme
+package com.example.plantillalocalServidor.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

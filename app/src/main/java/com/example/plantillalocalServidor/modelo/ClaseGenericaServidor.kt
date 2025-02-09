@@ -1,4 +1,4 @@
-package com.example.plantillalocal.modelo
+package com.example.plantillalocalServidor.modelo
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

@@ -1,8 +1,8 @@
-package com.example.plantillalocal.datos
+package com.example.plantillalocalServidor.datos
 
 import android.content.Context
-import com.example.plantillalocal.conexion.BaseDeDatos
-import com.example.plantillalocal.conexion.ServicioAPI
+import com.example.plantillalocalServidor.conexion.BaseDeDatos
+import com.example.plantillalocalServidor.conexion.ServicioAPI
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType

@@ -1,7 +1,7 @@
-package com.example.plantillalocal.datos
+package com.example.plantillalocalServidor.datos
 
-import com.example.plantillalocal.conexion.ServicioAPI
-import com.example.plantillalocal.modelo.ClaseGenericaServidor
+import com.example.plantillalocalServidor.conexion.ServicioAPI
+import com.example.plantillalocalServidor.modelo.ClaseGenericaServidor
 
 interface ServidorRepositorio {
    suspend fun obtenerEntidades(): List<ClaseGenericaServidor>

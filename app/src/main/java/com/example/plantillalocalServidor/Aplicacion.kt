@@ -1,7 +1,7 @@
-package com.example.plantillalocal
+package com.example.plantillalocalServidor
 
 import android.app.Application
-import com.example.plantillalocal.datos.ContenedorApp
+import com.example.plantillalocalServidor.datos.ContenedorApp
 
 class Aplicacion : Application() {
    lateinit var contenedor: ContenedorApp

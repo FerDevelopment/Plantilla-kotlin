@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">PlantillaLocal</string>
+    <string name="app_name">PlantillaLocalServidor</string>
+    <string name="alo">prueba\n</string>
+    <string name="atras">Atras</string>
+    <string name="mostrar_fecha">Mostrar fecha</string>
+    <string name="mostrar_hora">Mostrar hora</string>
+    <string name="fecha_seleccionada">Fecha seleccionada</string>
+    <string name="ninguna_fecha_seleccinada">Ninguna fecha seleccionada</string>
+    <string name="hora_seleccionada">Hora seleccionada</string>
+    <string name="ninguna_hora_seleccionada">Ninguna hora seleccionada</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="icono_contacto">Icono contacto</string>
 </resources>

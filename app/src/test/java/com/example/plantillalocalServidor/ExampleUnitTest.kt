@@ -1,4 +1,4 @@
-package com.example.plantillalocal
+package com.example.plantillalocalServidor
 
 import org.junit.Test
 import org.junit.Assert.*

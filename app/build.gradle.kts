@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-   namespace = "com.example.plantillalocal"
+   namespace = "com.example.plantillalocalServidor"
    compileSdk = 35
 
    defaultConfig {
-      applicationId = "com.example.plantillalocal"
+      applicationId = "com.example.plantillalocalServidor"
       minSdk = 24
       targetSdk = 35
       versionCode = 1

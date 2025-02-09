@@ -1,15 +1,15 @@
-package com.example.plantillalocal.conexion
+package com.example.plantillalocalServidor.conexion
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.plantillalocal.dao.ClaseGenericaDao
-import com.example.plantillalocal.modelo.ClaseGenerica
+import com.example.plantillalocalServidor.dao.ClaseGenericaDao
+import com.example.plantillalocalServidor.modelo.ClaseGenerica
 
 @Database(entities = [ClaseGenerica::class], version = 1, exportSchema = false)
 abstract class BaseDeDatos : RoomDatabase() {
-   abstract fun claseGenericaDao(): ClaseGenericaDao<ClaseGenerica>
+   abstract fun claseGenericaDao(): ClaseGenericaDao
 
    companion object {
       @Volatile
