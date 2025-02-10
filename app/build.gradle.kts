@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-   namespace = "com.example.plantillalocalServidor"
+   namespace = "com.example.plantillaLocalServidor"
    compileSdk = 35
 
    defaultConfig {
-      applicationId = "com.example.plantillalocalServidor"
+      applicationId = "com.example.plantillaLocalServidor"
       minSdk = 24
       targetSdk = 35
       versionCode = 1
@@ -72,6 +72,7 @@ dependencies {
    implementation(libs.jetbrains.kotlinx.serialization)
    implementation(libs.jakewharton.retrofit)
    implementation(libs.squareup.okhttp3)
+   implementation(libs.androidx.material.icons.extended)
    testImplementation(libs.junit)
    androidTestImplementation(libs.androidx.junit)
    androidTestImplementation(libs.androidx.espresso.core)
